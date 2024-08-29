@@ -25,8 +25,8 @@ class LyricsProcessingError(Enum):
 
 
 class LyricsFormat(Enum):
-    VERBATIMLRC = 0
     LINEBYLINELRC = 1
+    VERBATIMLRC = 0
     ENHANCEDLRC = 2
     SRT = 3
     ASS = 4
@@ -45,9 +45,9 @@ class SearchType(Enum):
 
 
 class Source(Enum):
+    KG = 2
     MULTI = 0
     QM = 1
-    KG = 2
     NE = 3
     Local = 100
 
